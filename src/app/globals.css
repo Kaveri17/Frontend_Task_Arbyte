@@ -2,20 +2,82 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+:root { /*Global selector*/
+  /* Colors */
+  --first-color: #492d26;
+  --first-color-alt: #2b1712;
+  --first-color-light: #65463e;
+  --second-color: #ddb66f;
+  --title-color: #2e2624;
+  --text-color: #5b4c48;
+  --text-color-light: #847571;
+  --white-color: #ffffff;
+  --body-color: #ffefeb;
+  --container-color: #ffffff;
+
+  /* Font Families */
+  --font-primary: "Poppins", sans-serif;
+  --font-accent: "Pacifico", cursive;
+
+  /* Font Sizes */
+  --biggest-font-size-mobile: 44px;
+  --biggest-font-size-desktop: 72px;
+
+  --big-font-size-mobile: 28px;
+  --big-font-size-desktop: 48px;
+
+  --h1-font-size-mobile: 24px;
+  --h1-font-size-desktop: 36px;
+
+  --h2-font-size-mobile: 20px;
+  --h2-font-size-desktop: 24px;
+
+  --h3-font-size-mobile: 16px;
+  --h3-font-size-desktop: 20px;
+
+  --normal-font-size-mobile: 15px;
+  --normal-font-size-desktop: 16px;
+
+  --small-font-size-mobile: 13px;
+  --small-font-size-desktop: 14px;
+  
+  --smaller-font-size-mobile: 12px;
+  --smaller-font-size-desktop: 13px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+/* body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
+
+/* 
+COLORS:-
+first-color: #492D26
+first-color-alt: #2B1712
+first-color-light: #65463E
+second-color: #DDB66F
+title-color: #2E2624
+text-color: #5B4C48
+text-color-light: #847571
+white-color: #FFFFFF
+body-color: #FFEFEB
+container-color: #FFFFFF
+
+FONTS:-
+biggest-font-size: Pacifico,44px/72px,regular
+big-font-size: Pacifico,28px/48px,regular
+h1-font-size: Poppins,24px/36px,semibold
+h2-font-size: Poppins,20px/24px,semibold
+h3-font-size: Poppins,16px/20px,semibold
+normal-font-size: Poppins,15px/16px,regular
+small-font-size: Poppins,13px/14x,regular
+smaller-font-size: Poppins,12px//13px,regular
+*/
